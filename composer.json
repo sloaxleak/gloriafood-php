@@ -1,7 +1,7 @@
 {
     "name": "gbro115/gloriafood-php",
     "type": "project",
-    "description": "PHP client for the GloriaFood API",
+    "description": "PHP client for the GloriaFood",
     "keywords": [
         "API",
         "GloriaFood"
@@ -26,9 +26,9 @@
         }
     },
     "require": {
-        "php": ">7.3",
+        "php": ">8.0",
         "psr/log": "^1.0.1",
-        "guzzlehttp/guzzle": "^6.5|^7.0",
+        "guzzlehttp/guzzle": "^7.0",
         "ext-json": "*",
         "nesbot/carbon": "^2.17.0"
     },

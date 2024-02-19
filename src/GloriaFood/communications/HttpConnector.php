@@ -60,7 +60,7 @@ class HttpConnector
      */
     private function request($url)
     {
-        $client = new Client();
+        $client = new Client([ 'verify' => false ]);
         $response = null;
 
         try {
